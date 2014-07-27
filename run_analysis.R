@@ -36,3 +36,4 @@ rm(list=setdiff(ls(), "filtered_data"))
 #Q5: Create a tidy data set with the average of each variable for each activity and each subject
 tidy_data<-aggregate(value ~ subject + activity + variable, data = filtered_data, FUN = mean)
 names(tidy_data)[4]<-"mean"
+write.table(x = tidy_data,file = "tidy_data.txt",sep = "\t",row.names = F)

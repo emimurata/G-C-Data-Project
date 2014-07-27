@@ -1,9 +1,11 @@
 ==================================================================
 Data Dictionary - tidy_data.txt
 ==================================================================
-####Subject:	Unique identifier for each participant in the experiment
-#####		Values: 1:30
-####Activity:	Activity performed by the subject
+####Subject:	
+#####Unique identifier for each participant in the experiment
+######		Values: 1:30
+####Activity:	
+#####Activity performed by the subject
 ######		Values: 
 ######			WALKING
 ######			WALKING_UPSTAIRS

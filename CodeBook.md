@@ -4,13 +4,13 @@ Data Dictionary - tidy_data.txt
 ####Subject:	Unique identifier for each participant in the experiment
 #####		Values: 1:30
 ####Activity:	Activity performed by the subject
-#####		Values: 
-#####			WALKING
-#####			WALKING_UPSTAIRS
-#####			WALKING_DOWNSTAIRS
-#####			SITTING
-#####			STANDING
-#####			LAYING
+######		Values: 
+######			WALKING
+######			WALKING_UPSTAIRS
+######			WALKING_DOWNSTAIRS
+######			SITTING
+######			STANDING
+######			LAYING
 ####Variable:	
 #####As described in the provided dataset, the features are time domain signals (prefix 't' to denote time) captured from an accelerometer and gyroscope 3-axial raw signals (tAcc-XYZ and tGyro-XYZ). 
 #####The acceleration signal was separated into body and gravity acceleration signals (tBodyAcc-XYZ and tGravityAcc-XYZ). 
@@ -20,7 +20,8 @@ Data Dictionary - tidy_data.txt
 #####From these variables, several estimations were made, from which two were selected:
 #####	mean(): Mean value
 #####	std(): Standard deviation		
-######		Values: "tBodyAcc-std()-X"
+######		Values: 
+######      "tBodyAcc-std()-X"
 ######			"tBodyAcc-std()-Y"
 ######			"tBodyAcc-std()-Z"
 ######			"tGravityAcc-std()-X"
@@ -86,5 +87,6 @@ Data Dictionary - tidy_data.txt
 ######			"fBodyBodyAccJerkMag-mean()"
 ######			"fBodyBodyGyroMag-mean()"
 ######			"fBodyBodyGyroJerkMag-mean()"
-####Mean:	Numerical value, represents the mean of the Variable measured during the correspondent Activity performed by the corresponding Subject
+####Mean:	
+#####Numerical value, represents the mean of the Variable measured during the correspondent Activity performed by the corresponding Subject
 ===================================================================
